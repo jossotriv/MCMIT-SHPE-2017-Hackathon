@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>FireTrack Home: Let's kick some ASH</title>
 <?php
 include 'css/style.php';
 ?>
@@ -27,15 +27,16 @@ include 'css/navbars.php';
   <div class="w3-hide-large" style="margin-top:83px"></div>
   
   <!-- Photo grid -->
+  <h1><center class="w3-white w3-text-red">Teams on the ground</center></h1>
   <div class="w3-row">
-    <div class="w3-third">
-      <a href="user.php" ><img src="pictures/user.jpg" style="width:100%" alt="A boy surrounded by beautiful nature"></a>
+    <div class="w3-third w3-padding">
+      <a href="team1.php" ><h3><center>Team 1</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="A boy surrounded by beautiful nature"></a>
     </div>
-    <div class="w3-third">
-      <a href="inspector.php" ><img src="pictures/inspector.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset"></a>
+    <div class="w3-third w3-padding">
+      <a href="#" ><h3><center>Team 2</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="A boy surrounded by beautiful nature"></a>
     </div>
-    <div class="w3-third">
-    <a href="firefighter.php" ><img src="pictures/firefighter.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful"></a>
+    <div class="w3-third w3-padding">
+      <a href="#" ><h3><center>Team 3</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="A boy surrounded by beautiful nature"></a>
     </div>
   </div>
 
