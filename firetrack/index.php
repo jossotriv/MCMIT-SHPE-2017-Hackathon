@@ -30,13 +30,13 @@ include 'css/navbars.php';
   <h1><center class="w3-white w3-text-red">Teams on the ground</center></h1>
   <div class="w3-row">
     <div class="w3-third w3-padding">
-      <a href="team1.php" ><h3><center>Team 1</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="A boy surrounded by beautiful nature"></a>
+      <a href="team1.php" ><h3><center>Team 1</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="Team 1"></a>
     </div>
     <div class="w3-third w3-padding">
-      <a href="#" ><h3><center>Team 2</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="A boy surrounded by beautiful nature"></a>
+      <a href="#" ><h3><center>Team 2</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="Team 2"></a>
     </div>
     <div class="w3-third w3-padding">
-      <a href="#" ><h3><center>Team 3</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="A boy surrounded by beautiful nature"></a>
+      <a href="#" ><h3><center>Team 3</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="Team 3"></a>
     </div>
   </div>
 
