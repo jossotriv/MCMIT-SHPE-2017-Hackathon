@@ -30,7 +30,7 @@ include 'css/navbars.php';
   <h1><center>Team 1</center></h1>
   <div class="w3-row">
     <div class="w3-third w3-padding">
-      <div class="w3-container w3-green"><a href="#" style="text-decoration:none;"><h3><center>Andrew J.</center></h3>
+      <div class="w3-container w3-green" style="background: url(pictures/)"><a href="#" style="text-decoration:none;"><h3><center>Andrew J.</center></h3>
       <ul><h6>Pulse: 130</h6></ul>
       <ul><h6>Temp: 101* f</h6></ul>
       <ul><h6>Accel: .45</h6></ul>

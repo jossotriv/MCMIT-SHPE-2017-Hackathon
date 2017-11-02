@@ -60,9 +60,9 @@ include 'css/navbars.php';
   <footer class="w3-container w3-padding-32 w3-grey">  
     <div class="w3-row-padding">
         <h3>About Us</h3>
-        <h6>FireTrack™  is an app that can and WILL save your life. With the help of  the FireTrack™  Smart Sensor™, a Firefighter can enter your house and know exactly where the fire is starting. Additionally, in the unfortunate event that someone is trapped inside, through the simple user interface and Smart Sensor™ technology, Firefighters will know exactly where you're at, making it easier to rescue them.<br><br> 
-        FireTrack™  is a helpful tool for Firefighter Operators as well. Through a map interface, operators can see potential fire sights, reports in that area, information of people possibly trapped in said fire area, structure integrity of the building affected, floor plan of the building affected and finally, the most efficient and safest route through the fire to the target.</br><br> 
-        In addition, we will have Firefighters wearing custom ear pieces that will monitor their vitals during and up to 48 hours after the  fire to catch and prevent fatal health issues caused by the fires.     
+        <h6>FireTrack™ is an app that helps monitor your Firefighting team's vitals and positions, potentially saving their lives.<br><br>
+
+        With the additional use of the FireTrack ear piece, you can directly comunicate with them and give them instructions on things they may not see.     
     
      </h6>
     </div>
