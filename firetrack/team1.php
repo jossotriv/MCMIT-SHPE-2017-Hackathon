@@ -3,6 +3,7 @@
 <title>Team 1 Vitals</title>
 <?php
 include 'css/style.php';
+include 'core/init.php'
 ?>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
@@ -29,54 +30,8 @@ include 'css/navbars.php';
   <!-- Photo grid -->
   <h1><center>Team 1</center></h1>
   <div class="w3-row">
-    <div class="w3-third w3-padding">
-      <div class="w3-container w3-green" style="background: url(pictures/)"><a href="#" style="text-decoration:none;"><h3><center>Andrew J.</center></h3>
-      <ul><h6>Pulse: 130</h6></ul>
-      <ul><h6>Temp: 101* f</h6></ul>
-      <ul><h6>Accel: .45</h6></ul>
-      <ul><h6>Coor: 39.097334, -94.586437</h6></ul>
-      </div></a>
-    </div>
-    <div class="w3-third w3-padding">
-      <div class="w3-container w3-green"><a href="#" style="text-decoration:none;"><h3><center>Jennifer K.</center></h3>
-      <ul><h6>Pulse: 110</h6></ul>
-      <ul><h6>Temp: 102* f</h6></ul>
-      <ul><h6>Accel: .8</h6></ul>
-      <ul><h6>Coor: 39.097334, -94.586437</h6></ul>
-      </div></a>
-    </div>
-    <div class="w3-third w3-padding">
-      <div class="w3-container w3-red"><a href="#" style="text-decoration:none;"><h3><center>Riley. W</center></h3>
-      <ul><h6>Pulse: 170</h6></ul>
-      <ul><h6>Temp: 111* f</h6></ul>
-      <ul><h6>Accel: 0</h6></ul>
-      <ul><h6>Coor: 39.097334, -94.586437</h6></ul>
-      </div></a>
-    </div>
-    <div class="w3-third w3-padding">
-      <div class="w3-container w3-green"><a href="#" style="text-decoration:none;"><h3><center>Luke T.</center></h3>
-      <ul><h6>Pulse: 98</h6></ul>
-      <ul><h6>Temp: 98* f</h6></ul>
-      <ul><h6>Accel: .68</h6></ul>
-      <ul><h6>Coor: 39.097334, -94.586437</h6></ul>
-      </div></a>
-    </div>
-    <div class="w3-third w3-padding">
-      <div class="w3-container w3-red"><a href="#" style="text-decoration:none;"><h3><center>Mandy. J</center></h3>
-      <ul><h6>Pulse: 12</h6></ul>
-      <ul><h6>Temp: 130* f</h6></ul>
-      <ul><h6>Accel: 0</h6></ul>
-      <ul><h6>Coor: 39.097334, -94.586437</h6></ul>
-      </div></a>
-    </div>
-    <div class="w3-third w3-padding">
-      <div class="w3-container w3-green"><a href="#" style="text-decoration:none;"><h3><center>Gucci M.</center></h3>
-      <ul><h6>Pulse: 116</h6></ul>
-      <ul><h6>Temp: 97* f</h6></ul>
-      <ul><h6>Accel: .98</h6></ul>
-      <ul><h6>Coor: 39.097334, -94.586437</h6></ul>
-      </div></a>
-    </div>
+    <?php show_teams() ?>
+    
   </div>
 
 
@@ -107,7 +62,7 @@ include 'css/navbars.php';
   </div>
 
   
-  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
 </div>
 
 
