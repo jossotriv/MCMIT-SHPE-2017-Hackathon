@@ -5,7 +5,7 @@
 include 'css/style.php';
 include 'core/init.php'
 ?>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+<body class=" w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
 <?php
@@ -22,7 +22,7 @@ include 'css/navbars.php';
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main w3-black" style="margin-left:300px">
+<div class="w3-main" style="margin-left:300px">
 
   <!-- Push down content on small screens --> 
   <div class="w3-hide-large" style="margin-top:83px"></div>
@@ -51,7 +51,7 @@ include 'css/navbars.php';
 
 
   <!-- Footer -->
-  <footer class="w3-container w3-padding-32 w3-grey">  
+  <footer class="w3-container w3-padding-32" style="background-color: #990000; color: white">  
     <div class="w3-row-padding">
         <h3><b>Manage your teams vitals</b></h3>
         <h6>Click their box to see their stats for this mission.     
@@ -62,7 +62,6 @@ include 'css/navbars.php';
   </div>
 
   
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
 </div>
 
 

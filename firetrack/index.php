@@ -4,7 +4,7 @@
 <?php
 include 'css/style.php';
 ?>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+<body class=" w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
 <?php
@@ -21,7 +21,7 @@ include 'css/navbars.php';
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main w3-black" style="margin-left:300px">
+<div class="w3-main" style="margin-left:300px; background-color: #990000; color: white">
 
   <!-- Push down content on small screens --> 
   <div class="w3-hide-large" style="margin-top:83px"></div>
@@ -29,14 +29,14 @@ include 'css/navbars.php';
   <!-- Photo grid -->
   <h1><center class="w3-white w3-text-red">Teams on the ground</center></h1>
   <div class="w3-row">
-    <div class="w3-third w3-padding">
-      <a href="team1.php" ><h3><center>Team 1</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="Team 1"></a>
+    <div class="w3-third w3-padding ">
+      <a href="team1.php" ><h3><center>Team 1</center></h3><img src="pictures/FT1.png" style="width:100%; border-style: solid;" alt="Team 1"></a>
     </div>
     <div class="w3-third w3-padding">
-      <a href="#" ><h3><center>Team 2</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="Team 2"></a>
+      <a href="#" ><h3><center>Team 2</center></h3><img src="pictures/FT2.png" style="width:100%;border-style: solid;" alt="Team 2"></a>
     </div>
     <div class="w3-third w3-padding">
-      <a href="#" ><h3><center>Team 3</center></h3><img src="pictures/truck.jpg" style="width:100%" alt="Team 3"></a>
+      <a href="#" ><h3><center>Team 3</center></h3><img src="pictures/FT3.png" style="width:100%;border-style: solid;" alt="Team 3"></a>
     </div>
   </div>
 
@@ -57,7 +57,7 @@ include 'css/navbars.php';
 
 
   <!-- Footer -->
-  <footer class="w3-container w3-padding-32 w3-grey">  
+  <footer class="w3-container w3-padding-32 w3-white">  
     <div class="w3-row-padding">
         <h3>About Us</h3>
         <h6>FireTrack™ is an app that helps monitor your Firefighting team's vitals and positions, potentially saving their lives.<br><br>
@@ -67,7 +67,7 @@ include 'css/navbars.php';
      </h6>
     </div>
   </footer>
-  </div>
+  
 
   
   
@@ -79,5 +79,5 @@ include 'css/navbars.php';
 include 'css/script.php';
 ?>
 
-</body>
+</body></div>
 </html>

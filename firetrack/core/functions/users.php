@@ -484,7 +484,7 @@ function show_teams(){
 	?>
 	<div class="w3-row">
     <div class="w3-third w3-padding">
-      <div class="w3-container w3-green" style="background: url(pictures/)"><a href="#" style="text-decoration:none;"><h3><center>Andrew J.</center></h3>
+      <div class="w3-container w3-green" style="background: url(pictures/p7.png);background-size: 100% 100%;box-shadow:inset 0px 0px 0px 6px #008000;"><a href="#" style="text-decoration:none;"><h3><center>Riley. W</center></h3>
       <ul><h6>Pulse: <div id="heartbeat1"></div></h6></ul>
       <ul><h6>Temp: <div id="temperature1"></div></h6></ul>
       <ul><h6>Accel: <div id="accel1"></div></h6></ul>
@@ -492,7 +492,7 @@ function show_teams(){
       </div></a>
     </div>
     <div class="w3-third w3-padding">
-      <div class="w3-container w3-green"><a href="#" style="text-decoration:none;"><h3><center>Jennifer K.</center></h3>
+      <div class="w3-container w3-green" style="background: url(pictures/p2.png);background-size: 100% 100%;box-shadow:inset 0px 0px 0px 6px #008000;><a href="#" style="text-decoration:none;"><h3><center>Mandy. J</center></h3>
       <ul><h6>Pulse: <div id="heartbeat2"></div></h6></ul>
       <ul><h6>Temp: <div id="temperature2"></div></h6></ul>
       <ul><h6>Accel: <div id="accel2"></div></h6></ul>
@@ -500,7 +500,8 @@ function show_teams(){
       </div></a>
     </div>
     <div class="w3-third w3-padding">
-      <div class="w3-container w3-red"><a href="#" style="text-decoration:none;"><h3><center>Riley. W</center></h3>
+      <div class="w3-container w3-red" style="background: url(pictures/p3.png);background-size: 100% 100%;box-shadow:inset 0px 0px 0px 6px #f00;">
+      <a href="andrew.php" style="text-decoration:none;"><h3><center>Andrew J.</center></h3>
       <ul><h6>Pulse: <div id="heartbeat3"></div></h6></ul>
       <ul><h6>Temp: <div id="temperature3"></div></h6></ul>
       <ul><h6>Accel: <div id="accel3"></div></h6></ul>
@@ -508,7 +509,7 @@ function show_teams(){
       </div></a>
     </div>
     <div class="w3-third w3-padding">
-      <div class="w3-container w3-green"><a href="#" style="text-decoration:none;"><h3><center>Luke T.</center></h3>
+      <div class="w3-container w3-green" style="background: url(pictures/p4.jpg);background-size: 100% 100%;box-shadow:inset 0px 0px 0px 6px #008000;><a href="#" style="text-decoration:none;"><h3><center>Luke T.</center></h3>
       <ul><h6>Pulse: <div id="heartbeat4"></div></h6></ul>
       <ul><h6>Temp: <div id="temperature4"></div></h6></ul>
       <ul><h6>Accel: <div id="accel4"></div></h6></ul>
@@ -516,7 +517,7 @@ function show_teams(){
       </div></a>
     </div>
     <div class="w3-third w3-padding">
-      <div class="w3-container w3-red"><a href="#" style="text-decoration:none;"><h3><center>Mandy. J</center></h3>
+      <div class="w3-container w3-red" style="background: url(pictures/p1.png);background-size: 100% 100%;box-shadow:inset 0px 0px 0px 6px #f00;"><a href="jennifer.php" style="text-decoration:none;"><h3><center>Jennifer K.</center></h3>
       <ul><h6>Pulse: <div id="heartbeat5"></div></h6></ul>
       <ul><h6>Temp: <div id="temperature5"></div></h6></ul>
       <ul><h6>Accel: <div id="accel5"></div></h6></ul>
@@ -524,7 +525,7 @@ function show_teams(){
       </div></a>
     </div>
     <div class="w3-third w3-padding">
-      <div class="w3-container w3-green"><a href="#" style="text-decoration:none;"><h3><center>Gucci M.</center></h3>
+      <div class="w3-container w3-green" style="background: url(pictures/p6.png);background-size: 100% 100%;box-shadow:inset 0px 0px 0px 6px #008000;><a href="#" style="text-decoration:none;"><h3><center>Gucci M.</center></h3>
       <ul><h6>Pulse: <div id="heartbeat6"></div></h6></ul>
       <ul><h6>Temp: <div id="temperature6"></div></h6></ul>
       <ul><h6>Accel: <div id="accel6"></div></h6></ul>
@@ -568,23 +569,23 @@ window.onload = function() {
 		   ctr5.innerHTML = (Math.random() * (102.5 - 97)  + 97).toFixed(2);
 		   ctr6.innerHTML = (Math.random() * (1 - 0) + 0).toFixed(2) ;
 		   
-		   ctr7.innerHTML = (Math.random() * (160 - 97)  + 97).toFixed(2);
-		   ctr8.innerHTML = (Math.random() * (102.5 - 97)  + 97).toFixed(2);
+		   ctr7.innerHTML = (Math.random() * (180 - 155)  + 155).toFixed(2);
+		   ctr8.innerHTML = (Math.random() * (104.5 - 101.8)  + 101.8).toFixed(2);
 		   ctr9.innerHTML = (Math.random() * (1 - 0) + 0).toFixed(2) ;
 		   
 		   ctr10.innerHTML = (Math.random() * (160 - 97)  + 97).toFixed(2);
 		   ctr11.innerHTML = (Math.random() * (102.5 - 97)  + 97).toFixed(2);
 		   ctr12.innerHTML = (Math.random() * (1 - 0) + 0).toFixed(2) ;
 		   
-		   ctr13.innerHTML = (Math.random() * (160 - 97)  + 97).toFixed(2);
-		   ctr14.innerHTML = (Math.random() * (102.5 - 97)  + 97).toFixed(2);
+		   ctr13.innerHTML = (Math.random() * (180 - 160)  + 160).toFixed(2);
+		   ctr14.innerHTML = (Math.random() * (103.5 - 101.7)  + 101.7).toFixed(2);
 		   ctr15.innerHTML = (Math.random() * (1 - 0) + 0).toFixed(2) ;
 		   
 		   ctr16.innerHTML = (Math.random() * (160 - 97)  + 97).toFixed(2);
 		   ctr17.innerHTML = (Math.random() * (102.5 - 97)  + 97).toFixed(2);
 		   ctr18.innerHTML = (Math.random() * (1 - 0) + 0).toFixed(2) ;
 		   
-           setTimeout( incrementCounter,500);
+           setTimeout( incrementCounter,10000);
         }
     
         incrementCounter();
