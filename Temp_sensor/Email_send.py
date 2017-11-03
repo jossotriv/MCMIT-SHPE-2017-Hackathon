@@ -1,3 +1,4 @@
+# sends alerts to fire chief to tell that people are in danger
 import smtplib
 
 from email.mime.multipart import MIMEMultipart
